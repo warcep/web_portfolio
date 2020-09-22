@@ -1,6 +1,7 @@
 html
 {
     height: 100%;
+    width: 100%;
     overflow: hidden;
     background: linear-gradient(45deg, rgba(45,45,45,1) 3%,rgba(0,0,0,1) 85%);
     font-family: 'Open Sans', sans-serif;
@@ -8,46 +9,45 @@ html
 
 #container
 {
-   width: 90%;
    margin-left: auto;
    margin-right: auto;
    color: #ffffff;
+   width: 50%;
+   border: 3px double #a19e9e;
+   border-radius: 25px;
 }
 
 #header
 {
-    width: 960px;
-    height: 100px;
+    height: 10px;
     text-align:center;
     font-weight:300;
     font-size:44px;
-    padding: 20px;
+    padding: 15px;
 }
 
 #content
 {
-    width: 960px;
     height: 400px;
     padding: 20px;
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 #footer
 {
-    width: 960px;
-    margin-top: 20px;
+    margin-top: 75px;
     height: 120px;
 }
 
  ul
  {
-     position: absolute;
-     left:50%;
-     transform: translate(-50%,-50%);
-     display: flex;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
  }
  
+
  ul li
  {
      list-style: none;
@@ -195,19 +195,19 @@ html
  
  .middle
  {
-     position: absolute;
-     top:50%;
-     left:50%;
-     transform:translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
  }
  
  .navigation
  {
-     position: absolute;
-     bottom:225px;
-     left:50%;
-     transform:translateX(-50%);
-     display:flex;
+    width: 140px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    margin-top: 5px;
  }
  
  .bar
@@ -218,6 +218,8 @@ html
      margin:6px;
      cursor: pointer;
      transition: 0.4s;
+     margin-left: auto;
+     margin-right: auto;
  }
  
  .bar:hover
@@ -227,9 +229,9 @@ html
  
  input[name="r"]
  {
-     position: absolute;
      visibility: hidden;
  }
+
  
  .slides
  {
@@ -252,31 +254,30 @@ html
  
  #r1:checked ~ .s1
  {
-     margin-left: 0;
+     margin-left: -1%;
  }
  
  #r2:checked ~ .s1
  {
-     margin-left: -20%;
+     margin-left: -22%;
  }
 
 
-@media screen and (max-width: 360px)
+@media screen and (max-width: 1355px)
 {
     #container
     {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #ffffff;
+        width: 70%;
     }
 }
 
-
-
-
-
-
+@media screen and (max-width: 1024px)
+{
+    #container
+    {
+        width: 90%;
+    }
+}
 
 #stars1
 {
