@@ -19,29 +19,26 @@ html
 
 #header
 {
-    height: 10px;
     text-align:center;
-    font-weight:300;
-    font-size:44px;
     padding: 15px;
 }
 
 #content
 {
-    height: 400px;
-    padding: 20px;
-    margin-top: 70px;
+    height: 30%;
+    padding-right: 5.5%;
+    margin-top: 2%;
 }
 
 #footer
 {
-    margin-top: 75px;
+    margin-top: 5%;
     height: 120px;
 }
 
  ul
  {
-    width: 500px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -51,21 +48,20 @@ html
  ul li
  {
      list-style: none;
-     height: 20px;
  }
  
  ul li a
  {
-     display: block;
-     position: relative;
-     width:65px;
+     width:65%;
      height:65px;
      line-height: 65px;
      font-size:47px;
-     text-align:center;
-     text-decoration: none;
-     color:#ffffff;
      margin: 0 25px;
+     display: block;
+     position: relative;
+     text-align:center;
+     text-decoration: none; 
+     color:#ffffff;
      transition: .5s;
  }
  
@@ -185,18 +181,17 @@ html
      transform: scale(1.25);
  }
  
- 
  .slidershow
  {
-     width: 700px;
-     height: 400px;
+     height: 100%;
+     width: 100%;
      overflow:hidden;
+     margin-left: auto;
+     margin-right: auto;
  }
  
  .middle
  {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 35px;
  }
  
@@ -235,7 +230,7 @@ html
  
  .slides
  {
-     width:500%;
+     width: 500%;
      height:100%;
      display:flex;
  }
@@ -252,32 +247,139 @@ html
      height: 100%;
  }
  
- #r1:checked ~ .s1
- {
-     margin-left: -1%;
- }
- 
+
  #r2:checked ~ .s1
  {
-     margin-left: -22%;
+     margin-left: -20%;
  }
 
 
+@media screen and (max-width: 1685px)
+{
+    #header
+    {
+        font-size:38px;
+    }
+}
+@media screen and (max-width: 1450px)
+{
+    .text_meetings
+    {
+        font-size: 33px;
+    }
+}
 @media screen and (max-width: 1355px)
 {
-    #container
+
+}
+
+@media screen and (max-width: 1125px)
+{
+
+}
+@media screen and (max-width: 1025px)
+{
+
+}
+@media screen and (max-width: 815px)
+{
+
+}
+@media screen and (max-width: 750px)
+{
+
+}
+@media screen and (max-width: 660px)
+{
+ 
+}
+@media screen and (max-width: 625px)
+{
+    .text_meetings
     {
-        width: 70%;
+        font-size: 27px;
+    }
+    #header
+    {
+        line-height: 90%;
+    }
+}
+@media screen and (max-width: 560px)
+{
+
+}
+@media screen and (max-width: 505px)
+{
+    .text_meetings
+    {
+        font-size: 23px;
+    }
+    #header
+    {
+        line-height: 80%;
+    }
+}
+@media screen and (max-width: 475px)
+{
+
+}
+@media screen and (max-width: 440px)
+{
+    .text_meetings
+    {
+        font-size: 18px;
+    }
+    #header
+    {
+        line-height: 70%;
+    }
+}
+@media screen and (max-width: 400px)
+{
+
+}
+@media screen and (max-width: 380px)
+{
+
+}
+@media screen and (max-width: 360px)
+{
+    .text_meetings
+    {
+        font-size: 15px;
+    }
+    #header
+    {
+        line-height: 60%;
+    }
+}
+@media screen and (max-width: 325px)
+{
+
+}
+@media screen and (max-width: 300px)
+{
+    .text_meetings
+    {
+        font-size: 13px;
+    }
+    #header
+    {
+        line-height: 55%;
+    }
+}
+@media screen and (max-width: 300px)
+{
+    .text_meetings
+    {
+        font-size: 12.5px;
+    }
+    #header
+    {
+        line-height: 40%;
     }
 }
 
-@media screen and (max-width: 1024px)
-{
-    #container
-    {
-        width: 90%;
-    }
-}
 
 #stars1
 {
