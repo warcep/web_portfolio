@@ -138,7 +138,6 @@ html
      transition: transform .5s;
  }
 
- 
 
  @keyframes animStar 
  {
@@ -174,16 +173,7 @@ html
          opacity: 65%;
      }
  }
- 
- .zoom 
- {
-     transition: transform .2s;
- }
-   
- .zoom:hover
- {
-     transform: scale(1.25);
- }
+
  
  .slidershow
  {
@@ -257,10 +247,7 @@ html
  {
      margin-left: -20%;
  }
- #r3:checked ~ .s1
- {
-     margin-left: -40%;
- }  
+
 
 
 @media screen and (max-width: 1685px)
