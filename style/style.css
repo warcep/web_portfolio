@@ -278,7 +278,7 @@ html
      }
      .slides
      {
-         width:520%;
+         width:500%;
      }
  }
 @media screen and (max-width: 1685px)
@@ -294,7 +294,7 @@ html
      }
      .slides
      {
-         width:495%;
+         width:475%;
      }
 }
 
@@ -313,10 +313,28 @@ html
     }
     .slides
      {
-         width:475%;
+         width:450%;
      }
 }
-
+@media screen and (max-width: 1300px)
+{
+    .slide
+    {
+        margin-right:4%;
+    }
+    #r2:checked ~ .s1
+    {
+        margin-left: -22%;
+    }
+    #r3:checked ~ .s1
+    {
+        margin-left: -42.5%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -63.5%;
+    }
+}
 @media screen and (max-width: 1100px)
 {
     #header
@@ -342,6 +360,10 @@ html
      {
          width:455%;
      }
+     #r1:checked ~ .s1
+    {
+        margin-left: -1%;
+    }
 }
 @media screen and (max-width: 1040px)
 {
@@ -407,17 +429,21 @@ html
     {
         margin-right:4%;
     }
+    #r1:checked ~ .s1
+    {
+        margin-left: -1.5%;
+    }
     #r2:checked ~ .s1
     {
-        margin-left: -21%;
+        margin-left: -21.5%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -41.5%;
+        margin-left: -42%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -62%;
+        margin-left: -62.5%;
     }
 }
 @media screen and (max-width: 770px)
@@ -437,6 +463,18 @@ html
     .slides
     {
         width:420%;
+    }
+    #r2:checked ~ .s1
+    {
+        margin-left: -22%;
+    }
+    #r3:checked ~ .s1
+    {
+        margin-left: -42.5%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -63%;
     }
 }
 @media screen and (max-width: 730px)
@@ -463,35 +501,31 @@ html
     }
     #r2:checked ~ .s1
     {
-        margin-left: -21%;
+        margin-left: -22.5%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -42%;
+        margin-left: -43.5%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -63%;
+        margin-left: -64.5%;
     }
 
 }
 @media screen and (max-width: 700px)
 {
-    .slide
-    {
-        margin-right:4.5%;
-    }
     #r2:checked ~ .s1
     {
-        margin-left: -21.5%;
+        margin-left: -23%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -42.5%;
+        margin-left: -44%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -63.5%;
+        margin-left: -65%;
     }
 }
 @media screen and (max-width: 665px)
@@ -506,23 +540,27 @@ html
     }
     .slides
     {
-        width:385%;
+        width:375%;
     }
     .slide
     {
-        margin-right:5%;
+        margin-right:6%;
+    }
+    #r1:checked ~ .s1
+    {
+        margin-left: -2%;
     }
     #r2:checked ~ .s1
     {
-        margin-left: -22%;
+        margin-left: -24.5%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -43.5%;
+        margin-left: -47%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -65%;
+        margin-left: -70%;
     }
 }
 
@@ -553,9 +591,13 @@ html
     {
         margin-right:4%;
     }
+    #r1:checked ~ .s1
+    {
+        margin-left: -1%;
+    }
     #r2:checked ~ .s1
     {
-        margin-left: -21%;
+        margin-left: -22%;
     }
     #r3:checked ~ .s1
     {
@@ -608,6 +650,22 @@ html
     {
         width:60%;
     }
+    #r1:checked ~ .s1
+    {
+        margin-left: -2%;
+    }
+    #r2:checked ~ .s1
+    {
+        margin-left: -23%;
+    }
+    #r3:checked ~ .s1
+    {
+        margin-left: -43%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -64%;
+    }
 }
 @media screen and (max-width: 400px)
 {
@@ -617,23 +675,23 @@ html
     }
     .slides
     {
-        width:385%;
+        width:375%;
     }
     .slide
     {
-        margin-right:5.5%;
+        margin-right:6%;
     }
     #r2:checked ~ .s1
     {
-        margin-left: -22.5%;
+        margin-left: -24%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -45%;
+        margin-left: -46%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -67.5%;
+        margin-left: -69%;
     }
 }
 @media screen and (max-width: 360px)
@@ -661,6 +719,18 @@ html
         margin-left: auto;
         margin-right: auto;
     }
+    #r2:checked ~ .s1
+    {
+        margin-left: -25%;
+    }
+    #r3:checked ~ .s1
+    {
+        margin-left: -47%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -70%;
+    }
 }
 @media screen and (max-width: 325px)
 {
@@ -668,25 +738,21 @@ html
     {
         font-size: 16px;
     }
-    .slides
+    #r1:checked ~ .s1
     {
-        width:345%;
-    }
-    .slide
-    {
-        margin-right:7%;
+        margin-left: -3%;
     }
     #r2:checked ~ .s1
     {
-        margin-left: -24%;
+        margin-left: -25%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -48%;
+        margin-left: -49%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -72%;
+        margin-left: -71%;
     }
 }
 @media screen and (max-width: 300px)
@@ -712,39 +778,33 @@ html
     {
         width:65%;
     }
-}
-@media screen and (max-width: 285px)
-{
-    .slides
+    #r1:checked ~ .s1
     {
-        width:325%;
-    }
-    .slide
-    {
-        margin-right:8%;
+        margin-left: -4%;
     }
     #r2:checked ~ .s1
     {
-        margin-left: -25%;
+        margin-left: -26.5%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -50%;
+        margin-left: -49%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -75%;
+        margin-left: -72%;
     }
 }
-@media screen and (max-width: 260px)
+
+@media screen and (max-width: 268px)
 {
-    .slides
+    .navigation
     {
-        width:280%;
+        width:65%;
     }
-    .slide
+    #r1:checked ~ .s1
     {
-        margin-right:10%;
+        margin-left: -4.5%;
     }
     #r2:checked ~ .s1
     {
@@ -752,18 +812,14 @@ html
     }
     #r3:checked ~ .s1
     {
-        margin-left: -54%;
+        margin-left: -49.5%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -81%;
-    }
-    .navigation
-    {
-        width:55%;
+        margin-left: -72.5%;
     }
 }
-@media screen and (max-width: 250px)
+@media screen and (max-width: 252px)
 {
     .text_meetings
     {
@@ -773,25 +829,21 @@ html
     {
         margin-top: 6px;
     }
-    .slides
+    #r1:checked ~ .s1
     {
-        width:270%;
-    }
-    .slide
-    {
-        margin-right:13%;
+        margin-left: -5.5%;
     }
     #r2:checked ~ .s1
     {
-        margin-left: -30%;
+        margin-left: -28.5%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -60%;
+        margin-left: -51%;
     }
     #r4:checked ~ .s1
     {
-        margin-left: -90%;
+        margin-left: -74%;
     }
 }
 
