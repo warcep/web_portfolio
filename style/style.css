@@ -258,6 +258,10 @@ html
  {
      margin-left: -40%;
  }
+ #r4:checked ~ .s1
+ {
+     margin-left: -60%;
+ }
 
  @media screen and (max-width: 4046px)
  {
@@ -411,6 +415,10 @@ html
     {
         margin-left: -41.5%;
     }
+    #r4:checked ~ .s1
+    {
+        margin-left: -62%;
+    }
 }
 @media screen and (max-width: 770px)
 {
@@ -461,6 +469,10 @@ html
     {
         margin-left: -42%;
     }
+    #r4:checked ~ .s1
+    {
+        margin-left: -63%;
+    }
 
 }
 @media screen and (max-width: 700px)
@@ -477,7 +489,10 @@ html
     {
         margin-left: -42.5%;
     }
-
+    #r4:checked ~ .s1
+    {
+        margin-left: -63.5%;
+    }
 }
 @media screen and (max-width: 665px)
 {
@@ -504,6 +519,10 @@ html
     #r3:checked ~ .s1
     {
         margin-left: -43.5%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -65%;
     }
 }
 
@@ -541,6 +560,10 @@ html
     #r3:checked ~ .s1
     {
         margin-left: -42%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -63%;
     }
 }
 @media screen and (max-width: 505px)
@@ -608,6 +631,10 @@ html
     {
         margin-left: -45%;
     }
+    #r4:checked ~ .s1
+    {
+        margin-left: -67.5%;
+    }
 }
 @media screen and (max-width: 360px)
 {
@@ -657,6 +684,10 @@ html
     {
         margin-left: -48%;
     }
+    #r4:checked ~ .s1
+    {
+        margin-left: -72%;
+    }
 }
 @media screen and (max-width: 300px)
 {
@@ -700,6 +731,10 @@ html
     {
         margin-left: -50%;
     }
+    #r4:checked ~ .s1
+    {
+        margin-left: -75%;
+    }
 }
 @media screen and (max-width: 260px)
 {
@@ -718,6 +753,10 @@ html
     #r3:checked ~ .s1
     {
         margin-left: -54%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -81%;
     }
     .navigation
     {
@@ -749,6 +788,10 @@ html
     #r3:checked ~ .s1
     {
         margin-left: -60%;
+    }
+    #r4:checked ~ .s1
+    {
+        margin-left: -90%;
     }
 }
 
