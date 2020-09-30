@@ -428,7 +428,7 @@ html
     }
     .slides
     {
-        width:415%;
+        width:420%;
     }
 }
 @media screen and (max-width: 730px)
@@ -491,7 +491,7 @@ html
     }
     .slides
     {
-        width:380%;
+        width:385%;
     }
     .slide
     {
@@ -594,7 +594,7 @@ html
     }
     .slides
     {
-        width:375%;
+        width:385%;
     }
     .slide
     {
@@ -679,14 +679,14 @@ html
     }
     .navigation
     {
-        width:70%;
+        width:65%;
     }
 }
 @media screen and (max-width: 285px)
 {
     .slides
     {
-        width:310%;
+        width:325%;
     }
     .slide
     {
@@ -694,11 +694,11 @@ html
     }
     #r2:checked ~ .s1
     {
-        margin-left: -26%;
+        margin-left: -25%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -52%;
+        margin-left: -50%;
     }
 }
 @media screen and (max-width: 260px)
@@ -718,6 +718,10 @@ html
     #r3:checked ~ .s1
     {
         margin-left: -54%;
+    }
+    .navigation
+    {
+        width:55%;
     }
 }
 @media screen and (max-width: 250px)
@@ -740,11 +744,11 @@ html
     }
     #r2:checked ~ .s1
     {
-        margin-left: -29%;
+        margin-left: -30%;
     }
     #r3:checked ~ .s1
     {
-        margin-left: -58%;
+        margin-left: -60%;
     }
 }
 
