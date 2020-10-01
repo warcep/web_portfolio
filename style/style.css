@@ -744,7 +744,7 @@ html
     }
     #r2:checked ~ .s1
     {
-        margin-left: -25%;
+        margin-left: -25.5  %;
     }
     #r3:checked ~ .s1
     {
